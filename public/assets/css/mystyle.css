@@ -1,0 +1,26 @@
+header h1{
+  color: white;
+  text-shadow: 1px 1px black;
+}
+header{
+    height: 200px;
+    background-image: url('../img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.kep{
+    width: 50%;
+    float: left;
+}
+
+@media only screen and (max-width: 576px){
+    .kep{
+        width: 100%;
+    }
+}
+p{
+    text-align: justify;
+}

@@ -6,6 +6,6 @@ use App\Http\Controllers\OrszagController;
 
 Route::view('/', 'welcome');
 
-Route::get('~/kontinensek/{id}', [KontinensController::class, 'Kontinens']);
+Route::get('/kontinensek/{id}', [KontinensController::class, 'Kontinens']);
 
-Route::get('~/orszagok/{id}', [OrszagController::class, 'Orszag']);
+Route::get('/orszagok/{id}', [OrszagController::class, 'Orszag']);
